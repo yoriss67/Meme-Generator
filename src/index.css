@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: "Karla", sans-serif;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+  height: 11.81vh;
+  background: rgb(106, 34, 131);
+  background: linear-gradient(90deg, rgba(106, 34, 131, 1) 0%, rgba(117, 35, 146, 1) 20%, rgba(133, 36, 168, 1) 35%, rgba(152, 37, 193, 1) 71%, rgba(165, 38, 209, 1) 100%);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 3.636vw;
+
+  color: #fff;
+
+}
+
+.nav--brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand--left {
+  width: 4vw;
+  max-width: 2rem;
+  margin-right: 5px;
+}
+
+.brand--right {}
+
+
+
+.nav--course {}
+
+
+
+
+
+
+/* MEME */
+.meme {
+  width: 86.727vw;
+  margin: 0 auto;
+  padding:0 6.545vw;
+  box-sizing: border-box;
+}
+
+
+.form {
+  display: grid;
+  /* rowたて・columnよこ */
+  grid-template: 7.273vw 7.273vw /1fr 1fr;
+  gap: 3.091vw;
+
+}
+
+.meme--keyword {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* min-height: 6.3vh; */
+  /* margin: 11.3vh auto 7.7vh; */
+
+}
+
+.first--keyword {
+  border-radius: 5px;
+  /* width: 41.818vw; */
+  border: 1px solid #D5D4D8;
+  font-size: 2.182vw;
+  padding: 0 2vw ;
+
+}
+
+.second--keyword {
+  border-radius: 5px;
+  /* width: 41.818vw; */
+  border: 1px solid #D5D4D8;
+  font-size: 2.182vw;
+  padding: 0 2vw ;
+}
+
+.meme--button {
+  width: 100%;
+  min-height: 7.2vh;
+  font-size: 2.182vw;
+
+  background: rgb(106, 34, 131);
+  background: linear-gradient(90deg, rgba(106, 34, 131, 1) 0%, rgba(117, 35, 146, 1) 20%, rgba(133, 36, 168, 1) 35%, rgba(152, 37, 193, 1) 71%, rgba(165, 38, 209, 1) 100%);
+
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+
+  /* よこ */
+  /* grid-column: 1/ 3; */
+  /* こっちの方がbetter */
+  grid-column: 1/-1;
+
+}
+
+.random--image {
+  margin: 5vh auto;
+  width: 100%;
+}
+
+.meme--video {}
+
+
+
+/* APP */
+.container {
+
+}
+
+.container img {
+  width: 100px;
+}
+
+
